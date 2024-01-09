@@ -5,7 +5,7 @@ A brief (and inaccurate) history of derivatives, with a brief (and incomplete) P
 
 While derivates are at the heart of ML training, we rarely think about computing them: arguably, the capabilities of modern ML packages when it comes to "automatic differentiation" is one of the reasons behind the explosive growth of the field.
 
-The blog post "Marginally important: automatic differentiation with dual numbers" is a brief introduction to supernatural, infinitesimal and dual numbers, with unexpected application to one of the core concepts of ML: Newton-and-Leibniz calculus, re-booted.
+The [blog post](https://www.cantorsparadise.com/marginally-important-automatic-differentiation-with-dual-numbers-2448dc58e5e2) "Marginally important: automatic differentiation with dual numbers" is a brief introduction to supernatural, infinitesimal and dual numbers, with unexpected application to one of the core concepts of ML: Newton-and-Leibniz calculus, re-booted.
 
 This repo contains a simple code snippet to implement differentiation through dual numbers.
 
@@ -26,8 +26,7 @@ cd src
 python dual.py
 ```
 
-You should get in the terminal the examples from the blog post, and the results of comparing the dual implementation with [MyGrad](https://github.com/rsokl/MyGrad).
-
+You should get in the terminal the examples from the [blog post](https://www.cantorsparadise.com/marginally-important-automatic-differentiation-with-dual-numbers-2448dc58e5e2), and the results of comparing the dual implementation with [MyGrad](https://github.com/rsokl/MyGrad).
 
 ## License
 
